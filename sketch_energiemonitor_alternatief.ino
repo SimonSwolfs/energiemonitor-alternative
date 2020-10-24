@@ -2,7 +2,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial Serial7Segment(7, 8); // RX pin, TX pin
 
-#define VIO 2 // Just used for the HIGH reference voltage
+define VIO 2 // Just used for the HIGH reference voltage
 #define INT 3 // On 328 Arduinos, only pins 2 and 3 support interrupts
 #define POL 4 // Polarity signal
 #define GND 5 // Just used for the LOW reference voltage
@@ -73,15 +73,7 @@ void loop()
     
     // Send the updated percent value to 7-segment display
     print7SegFloat(battery_percent);
-
-    // Blink LED and buzzer (optional)
-    digitalWrite(LED,HIGH);
-    tone(BUZZ,2000);
-
-    delay(100);
-
-    digitalWrite(LED,LOW);
-    noTone(BUZZ);
+    
   }
   
 }
