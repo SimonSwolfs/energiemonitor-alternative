@@ -6,5 +6,5 @@ Ik heb een alternatief gemaakt voor de bestaande opdracht(Individuele opdracht -
 moeilijkheden mee, dus heb ik een aansluitschema gemaakt met een 7-segement display. En ik ga alleen de Coulomb counter gebruiken, die gaat op het display 
 de resterende percentage en actueel verbuik tonen. 
 Waarom ik een alternatief heb bedacht is omdat ik geen tijd had om nog het (originele) lcd display te laten werken. Daarnaast heb ik thuis ook geen andere microcontrollers liggen (Arduino Uno). 
-
+En ik vind het stom om deze opdracht met andere te moeten doen terwijl ik er niks of weinig van snap. Ik snap van deze code nog altijd niet veel maar ik hoop dat je mij dat kunt aanleren. 
 
